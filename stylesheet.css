@@ -1,0 +1,114 @@
+/* CSS code Portfolio website */
+
+/* General settings to override google's standard CSS */
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar CSS code */
+nav {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    align-items: center;
+
+
+    background-color: #16783a;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    list-style-type: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+/* Navbar links animations */
+/* About me link */
+#nav_aboutme {
+    display: inline-block;
+    position: relative;
+}
+#nav_aboutme::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+#nav_aboutme:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+/* Project 1 link animation */
+#nav_project1 {
+    display: inline-block;
+    position: relative;
+}
+#nav_project1::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+#nav_project1:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+/* Project 2 link animation */
+#nav_project2 {
+    display: inline-block;
+    position: relative;
+}
+#nav_project2::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+#nav_project2:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+/* Main CSS code */
+main {
+    color: black; 
+}
+
+
+/* Footer CSS code */
+footer {
+    display: flex;
+    width: 100%;
+
+    background-color: #16783a;
+}
