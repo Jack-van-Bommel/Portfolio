@@ -125,6 +125,10 @@ header h1 {
 
     list-style-type: none;
 }
+header li {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 
 
 
