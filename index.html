@@ -18,7 +18,7 @@
 <!-- Navbar with buttons to scroll to specific part of the website -->
 <nav>
     <ul>
-        <li><a href="#aboutme" id="nav_aboutme">Over mij</a></li>
+        <li><a href="#aboutme_container" id="nav_aboutme">Over mij</a></li>
         <li><a href="#project_1" id="nav_project1">Project 1: Ouderavond website</a></li>
         <li><a href="#project_2" id="nav_project2">Project 2: Javascript website</a></li>
     </ul>
@@ -31,20 +31,24 @@
         <h1 id="header_h1">Portfolio</h1>
         <h1>Jack van Bommel</h1>
         <ul class="header_list">
-            <li><i class="material-icons">call</i>0615177984</li>
-            <li><i class="material-icons">mail</i>jackvbommel@gmail.com</li> 
-            <li></i><a href="#">LinkedIn</a></li>
-            <li><a href="#">Github</a></li>
+            <li><!-- <i class="material-icons">call</i> -->0615177984</li>
+            <li><!-- <i class="material-icons">mail</i> -->jackvbommel@gmail.com</li> 
+            <li><a href="https://github.com/Jack-van-Bommel" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/jack-van-bommel-84a1a924b/" target="_blank">Github</a></li>
         </ul>
     </header>
 
     <!-- About me code -->
-    <section id="aboutme">
+    <section id="aboutme_container">
+        <img src="./Images/elementor-placeholder-image.webp" id="IMG_aboutme"> 
         <h2>Over mij</h2>
-        <div id="aboutme_container">
-            <p>Mijn naam is Jack van Bommel. Ik ben een 18-jarige Software Development student in Rotterdam. Mijn hobbies bestaan uit games spelen, programmeren, muziek luisteren, boeken lezen en cd's verzamelen.</p>
+        <div id="aboutme_text">
+            <p>Mijn naam is Jack van Bommel. Ik ben een 18-jarige Software Development student in Rotterdam. Mijn hobbies bestaat uit games spelen, programmeren, muziek luisteren, boeken lezen en cd's verzamelen.</p>
+            <br>
             <p>Sinds een jonge leeftijd ben ik al bezig met computers en technologie. Het begon met de zaklamp vasthouden terwijl mijn vader zijn computer bouwde naar mijn eigen computer in elkaar zetten. Over de jaren heen heb ik veel geleerd over computers wat veel heeft geholpen in mijn studie.</p>
+            <br>
             <p>Een belangrijk onderdeel van mij is mijn leergierigheid. Ik houd van leren en ben altijd iets nieuws aan het opzoeken. Dit gaat van een rubiks cube leren oplossen naar onderzoek doen over de Nederlandse staatsinrichting tot nieuwe programmeren talen of technieken leren.</p>
+            <br>
             <br>
             <p>In september 2022 ben ik begonnen met de opleiding MBO 4 Software Development waar ik veel heb geleerd over webdevelopment. In de afgelopen maanden heb ik gewerkt aan 3 schoolprojecten. Hierbij heb ik gewerkt met HTML5, CSS3, Javascript, PHP en MySQL. Onderin ga ik dieper in op de projecten, waar ik aan heb gewerkt en wat ik heb geleerd.</p>
         </div>    
@@ -53,86 +57,116 @@
     <!-- Project 1 code -->
     <section id="project_1"> 
         <!-- Intro for project 1 -->
-        <section id="pr1_intro">
-            <h2>Project 1: Ouderavond website</h2>
-            <p>Dit was mijn eerste programmeer project waar ik aan heb gewerkt en waar ik de leiding had. Het was een schoolopdracht waar wij 3 maanden de tijd voor hadden, verdeeld in 4 sprints.</p>
-            <p>Het doel was een website maken met alle informatie over de ouderavonden van mijn school, uitleg geven over software die wij gebruiken en wat vertellen over de ons zelf.</p>
-            <p>Dit project was samen met iemand anders gemaakt. Om hun privacy te bewaken is al hun persoonlijke informatie verwijderd en vervangen met placeholder text/foto's.</p>
+        <h2>Project 1: Ouderavond website</h2>
+        <div id="pr1_introcontainer">
+            <section id="pr1_intro">
+                <p>Dit was mijn eerste programmeer project waar ik aan heb gewerkt en waar ik de leiding had. Het was een schoolopdracht waar wij 3 maanden de tijd voor hadden, verdeeld in 4 sprints.</p>
+                <p>Het doel was een website maken met alle informatie over de ouderavonden van mijn school, uitleg geven over software die wij gebruiken en wat vertellen over de ons zelf.</p>
+                <br>
+                <p>Dit project was samen met iemand anders gemaakt. Om hun privacy te bewaken is al hun persoonlijke informatie verwijderd en vervangen met placeholder text/foto's.</p>
+                <br>
+                <p>Tijdens dit project heb ik gewerkt met HTML5 en CSS3, voor versiebeheer is Github gebruikt en om de voortgang bij te houden werd er gebruik gemaakt van de SCRUM methodiek met een Trelloboard.</p>
+                <br>
+                <br>
+                <p>Om het project te bekijken klik op de knop, of scroll naar beneden om meer erover te leren!</p>
+            </section>
+            <a href="./Project 1 webpages/p1 project/index.html" target="_blank" id="pr1_btn">Project 1</a>
             <br>
-            <p>Tijdens dit project heb ik gewerkt met HTML5 en CSS3, voor versiebeheer is Github gebruikt en om de voortgang bij te houden werd er gebruik gemaakt van de SCRUM methodiek met een Trelloboard.</p>
-            <br>
-            <p>Om het project te bekijken klik op de knop, of scroll naar beneden om meer erover te leren!</p>
-            <a href="./Project 1 webpages/p1 project/index.html" target="_blank">Project 1</a>
-        </section>
+            <img src="./Images/elementor-placeholder-image.webp" id="IMG_pr1intro">
+        </div>
         <!-- First bit of text about project 1. It contains the designing process and dividing the tasks -->
-        <section id="pr1_text1">
+        <div id="pr1_text1container">
             <h3>Ontwerp bedenken, maken en de taken verdelen</h3>
-            <p>Bij dit project begon ik met een ontwerp bedenken samen met mijn teamgenoot. Het algemene ontwerp, de kleuren en positie van onderdelen is allemaal bedacht door mij. Dit hebben wij tot leven gebracht met wireframes maken in Figma.</p>
-            <p>Het design is gebasseerd op de website van mijn school Techniek College Rotterdam. Dit had ik gekozen omdat de website moest functioneren als een onderdeel van de school.</p>
-            <br>
-            <p>Tijdens dit project maakte wij gebruik van de SCRUM methode, omdat wij met maar met 2 mensen waren hadden wij geen scrummaster benoemd. In plaats daarvan hielden wij onze eigen voortgang bij. Om alles ordelijk bij te houden hielden wij dagelijks on Trelloboard bij en hielden wij daily standups.</p>
-            <p>Wij probeerde de taken eerlijk te verdelen, tijdens dit process had ik de lastigere onderdelen op mij genomen. Denk hierbij aan de navigatiebalk, dropdown menu's en een soort "template" maken waar mijn teamgenoot hun webpagina's mee kon maken.</p>
-        </section>
+            <section id="pr1_text1">
+                <p>Bij dit project begon ik met een ontwerp bedenken samen met mijn teamgenoot. Het algemene ontwerp, de kleuren en positie van onderdelen is allemaal bedacht door mij. Dit hebben wij tot leven gebracht met wireframes maken in Figma.</p>
+                <p>Het design is gebasseerd op de website van mijn school Techniek College Rotterdam. Dit had ik gekozen omdat de website moest functioneren als een onderdeel van de school.</p>
+                <br>
+                <p>Tijdens dit project maakte wij gebruik van de SCRUM methode, omdat wij met maar met 2 mensen waren hadden wij geen scrummaster benoemd. In plaats daarvan hielden wij onze eigen voortgang bij. Om alles ordelijk bij te houden hielden wij dagelijks on Trelloboard bij en hielden wij daily standups.</p>
+                <p>Wij probeerde de taken eerlijk te verdelen, tijdens dit process had ik de lastigere onderdelen op mij genomen. Denk hierbij aan de navigatiebalk, dropdown menu's en een soort "template" maken waar mijn teamgenoot hun webpagina's mee kon maken.</p>
+            </section>
+            <img src="./Images/elementor-placeholder-image.webp" id="IMG_pr1text1">
+        </div>
         <!-- Second bit of text. This one contains which parts of the project I made -->
-        <section id="pr1_text2">
-            <h3>Maken van het product</h3>
-            <p>Nadat het ontwerp was bedacht en de taken waren verdeeld begonnen wij met het maken van de website</p>
-            <p>De volgende onderdelen heb ik gemaakt:</p>
-            <ul>
-                <li>Navigatiebalk met dropdown menu en de footer</li>
-                <li>Homepagina</li>
-                <li>Bindend Studie Advies pagina</li>
-                <li>EduArte pagina</li>
-                <li>Ouderavond planning pagina met een tabel en formulier</li>
-                <li>Examenplanning pagina</li>
-                <li>Over Jack pagina</li>
-            </ul>
-        </section>
+        <div id="pr1_text2container">
+            <h3>Maken van het product</h3>  
+            <section id="pr1_text2">
+                <p>Nadat het ontwerp was bedacht en de taken waren verdeeld begonnen wij met het maken van de website</p>
+                <br>
+                <p>De volgende onderdelen heb ik gemaakt:</p>
+                <ul>
+                    <li>Navigatiebalk met dropdown menu en de footer</li>
+                    <li>Homepagina</li>
+                    <li>Bindend Studie Advies pagina</li>
+                    <li>EduArte pagina</li>
+                    <li>Ouderavond planning pagina met een tabel en formulier</li>
+                    <li>Examenplanning pagina</li>
+                    <li>Over Jack pagina</li>
+                </ul>
+            </section>
+            <img src="./Images/elementor-placeholder-image.webp" id="IMG_pr1text2">
+        </div>  
         <!-- Conclusion of project 1. -->
-        <section id="pr1_ending">
+        <div id="pr1_endingcontainer">   
             <h3>Conclusie</h3>
-            <p>Dit was een simpel project om eerste jaars studenten kennis te laten maken HTML5 en CSS3 en ik heb er veel van geleerd.</p>
-            <p>Voor dit project heb ik een 9,8 gekregen. Dit was cijfer was een combinatie van de website, gebruik van SCRUM en de eindpresentatie. De minpunten waren omdat ik geen gebruik had gemaakt van comments in de code. Gelukkig heb ik inmiddeld geleerd van deze fout.</p>
-        </section>
+            <section id="pr1_ending">
+                <p>Dit was een simpel project om eerste jaars studenten kennis te laten maken HTML5 en CSS3 en ik heb er veel van geleerd.</p>
+                <br>
+                <p>Voor dit project heb ik een 9,8 gekregen. Dit was cijfer was een combinatie van de website, gebruik van SCRUM en de eindpresentatie. De minpunten waren omdat ik geen gebruik had gemaakt van comments in de code. Gelukkig heb ik inmiddeld geleerd van deze fout.</p>
+            </section>
+        </div> 
+            
     </section>
 
     <!-- Project 2 code -->
     <section id="project_2">
         <!-- Project 2 intro with general information about the project -->
-        <section id="pr2_intro">
+        <div id="pr2_introcontainer">
             <h2>Project 2: Javascript game</h2>
-            <p>Dit is het 2e project waar ik aan heb gewerkt. Ook deze duurde 4 maanden. Dit project heb ik gemaakt in samenwerkening met 3 goede vrienden en klasgenoten van mij.</p>
-            <p>Het doel van dit project was een simpele website creëren met een aantal pagina's en een game gemaakt in Javascript. Dit project eiste veel zelfstudie omdat ik maar weinig Javascript lessen heb gehad.</p>
-            <p>Dit project is naar mijn mening heel goed gegaan. De samenwerking was goed met een eerlijke taakverdeling en elkaar helpen. Ook heb ik heel veel geleerd over Javascript en game development.</p>
-            <br>
-            <p>Dit project is gemaakt met HTML5, CSS3, Javascript en Github. Ook voor dit project heb ik gewerkt met SCRUM en werd de voortgang bijgehouden op een Trelloboard.</p>
-            <br>
-            <p>Om het project te bekijken klik op de knop, of scroll naar beneden om meer erover te leren!</p>
-            <a href="./Project 2 webpages/Webpage/Home/index.html" target="_blank">Project 2</a>
-        </section>
+            <section id="pr2_intro">
+                <p>Dit is het 2e project waar ik aan heb gewerkt. Ook deze duurde 4 maanden. Dit project heb ik gemaakt in samenwerkening met 3 goede vrienden en klasgenoten van mij.</p>
+                <p>Het doel van dit project was een simpele website creëren met een aantal pagina's en een game gemaakt in Javascript. Dit project eiste veel zelfstudie omdat ik maar weinig Javascript lessen heb gehad.</p>
+                <p>Dit project is naar mijn mening heel goed gegaan. De samenwerking was goed met een eerlijke taakverdeling en elkaar helpen. Ook heb ik heel veel geleerd over Javascript en game development.</p>
+                <br>
+                <p>Dit project is gemaakt met HTML5, CSS3, Javascript en Github. Ook voor dit project heb ik gewerkt met SCRUM en werd de voortgang bijgehouden op een Trelloboard.</p>
+                <br>
+                <p>Om het project te bekijken klik op de knop, of scroll naar beneden om meer erover te leren!</p>
+            </section>
+            <a href="./Project 2 webpages/Webpage/Home/index.html" target="_blank" id="pr2_btn">Project 2</a>
+            <img src="./Images/elementor-placeholder-image.webp" id="IMG_pr2intro">
+        </div>
         <!-- First bit of text about the project. It contains designing with figma, researching Javascript and more. -->
-        <section id="pr2_text1">
+        <div id="pr2_text1container">
             <h3>Ontwerpen met Figma en Javascript onderzoeken.</h3>
-            <p>Het begon met een sitemap maken en de pagina's onderverdelen zodat iedereen evenveel werk had. Vervolgens werd er gewerkt aan de wireframes voor de pagina's en hierbij een algemeen ontwerp opstellen.</p>
-            <p>Het grootste obstakel tijdens dit project was Javascript. Tot dat moment had ik nog geen ervaring object-oriented programming en met bijna geen lessen heb ik veel tijd besteed aan het zelf leren. Inmiddels heb ik een goede basis, maar ik moet nog veel leren.</p>
-        </section>
+            <section id="pr2_text1">
+                <p>Het begon met een sitemap maken en de pagina's onderverdelen zodat iedereen evenveel werk had. Vervolgens werd er gewerkt aan de wireframes voor de pagina's en hierbij een algemeen ontwerp opstellen.</p>
+                <br>
+                <p>Het grootste obstakel tijdens dit project was Javascript. Tot dat moment had ik nog geen ervaring object-oriented programming en met bijna geen lessen heb ik veel tijd besteed aan het zelf leren. Inmiddels heb ik een goede basis, maar ik moet nog veel leren.</p>
+            </section>
+             <img src="./Images/elementor-placeholder-image.webp" id="IMG_pr2text1">
+        </div>
         <!-- Second bit of text about project 2, this one is says which part I made and what my game is. -->
-        <section id="pr2_text2">
+        <div id="pr2_text2container">
             <h3>Ontwikkelen van de website</h3>
-            <p>Na het ontwerp process begon ik aan het maken van de website. Ik heb de persoonlijke delen van de website gemaakt:</p>
-            <ul>
-                <li>Navigatiebalk en footer</li>
-                <li>Game in Javascript</li>
-                <li>Favoriete games pagina</li>
-            </ul>
-            <p>Voor mijn game heb ik een simpele platforming game gemaakt. Het design is heel simpel met wat gekleurde dozen, het character wordt bestuurd met WASD en SPATIE. Het lastigste onderdeel was begrijpen hoe collisie werkt en dit aan de game effectief toevoegen. Dit is uiteindelijk gelukt.</p>
-        </section>
+            <section id="pr2_text2">
+                <p>Na het ontwerp process begon ik aan het maken van de website. Ik heb de persoonlijke delen van de website gemaakt:</p>
+                <ul>
+                    <li>Navigatiebalk en footer</li>
+                    <li>Game in Javascript</li>
+                    <li>Favoriete games pagina</li>
+                </ul>
+                <p>Voor mijn game heb ik een simpele platforming game gemaakt. Het design is heel simpel met wat gekleurde dozen, het character wordt bestuurd met WASD en SPATIE. Het lastigste onderdeel was begrijpen hoe collisie werkt en dit aan de game effectief toevoegen. Dit is uiteindelijk gelukt.</p>
+            </section>
+             <img src="./Images/elementor-placeholder-image.webp" id="IMG_pr2text2">
+        </div>
         <!-- Ending part of project 2, with a small conclusion and my grade -->
-        <section id="pr2_ending">
-            <h3>Conclusie van project 2</h3>
-            <p>Dit was een erg lastig project, maar ik ben heel tevreden met de uitkomst. Ik ben trots op mijn game ookal is deze niet perfect.</p>
-            <p>Het project heb ik afgerond met een 8,6. Ik heb er veel van geleerd en heeft voor mij een interesse in Javascript gestart.</p>
-        </section>
+        <div id="pr2_endingcontainer">  
+            <section id="pr2_ending">
+                <h3>Conclusie van project 2</h3>
+                <p>Dit was een erg lastig project, maar ik ben heel tevreden met de uitkomst. Ik ben trots op mijn game ookal is deze niet perfect.</p>
+                <br>
+                <p>Het project heb ik afgerond met een 8,6. Ik heb er veel van geleerd en heeft voor mij een interesse in Javascript gestart.</p>
+            </section>
+        </div>  
     </section>
 </main>
 
@@ -141,8 +175,8 @@
     <ul>
         <li>jackvbommel@gmail.com</li> 
         <li>0615177984</li>
-        <li><a href="#">LinkedIn</a></li>
-        <li><a href="#">Github</a></li>
+        <li id="footer_linkedin"><a href="https://www.linkedin.com/in/jack-van-bommel-84a1a924b/" target="_blank">LinkedIn</a></li>
+        <li id="footer_github"><a href="https://github.com/Jack-van-Bommel" target="_blank">Github</a></li>
     </ul>
 </footer>
 
